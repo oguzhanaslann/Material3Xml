@@ -1,8 +1,31 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Material3Xml" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="textAppearanceDisplayLarge">@style/MD3.DisplayLarge.Custom</item>
+        <item name="textAppearanceDisplayMedium">@style/MD3.DisplayMedium.Custom</item>
+        <item name="textAppearanceDisplaySmall">@style/MD3.DisplaySmall.Custom</item>
+
+        <item name="textAppearanceHeadlineLarge">@style/MD3.HeadlineLarge.Custom</item>
+        <item name="textAppearanceHeadlineMedium">@style/MD3.HeadlineMedium.Custom</item>
+        <item name="textAppearanceHeadlineSmall">@style/MD3.HeadlineSmall.Custom</item>
+
+        <item name="textAppearanceTitleLarge">@style/MD3.TitleLarge.Custom</item>
+        <item name="textAppearanceTitleMedium">@style/MD3.TitleMedium.Custom</item>
+        <item name="textAppearanceTitleSmall">@style/MD3.TitleSmall.Custom</item>
+
+        <item name="textAppearanceBodyLarge">@style/MD3.BodyLarge.Custom</item>
+        <item name="textAppearanceBodyMedium">@style/MD3.BodyMedium.Custom</item>
+        <item name="textAppearanceBodySmall">@style/MD3.BodySmall.Custom</item>
+
+        <item name="textAppearanceLabelLarge">@style/MD3.LabelLarge.Custom</item>
+        <item name="textAppearanceLabelMedium">@style/MD3.LabelMedium.Custom</item>
+        <item name="textAppearanceLabelSmall">@style/MD3.LabelSmall.Custom</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/MD3.Shape.Small.Custom</item>
+        <item name="shapeAppearanceMediumComponent">@style/MD3.Shape.Medium.Custom</item>
+        <item name="shapeAppearanceLargeComponent">@style/MD3.Shape.Large.Custom</item>
     </style>
 
     <style name="Theme.Material3Xml" parent="Base.Theme.Material3Xml" />
